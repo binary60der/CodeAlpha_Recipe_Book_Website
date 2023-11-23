@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Recipe Sharing</title>
+</head>
+
+<body>
+    <header>
+        <h1>Recipe Sharing</h1>
+    </header>
+    <main>
+        <section id="recipe-list">
+            <div class="shop-section">
+                <div class="box1 box">
+                    <div class="box-content">
+                        <h2>Masala Dosa</h2>
+                        <div class="box-img" style="background-image: url('images/box1_image.jpg');"></div>
+                        <p>See More</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="recipe-form">
+            <h2>Add/Edit Recipe</h2>
+            <form id="recipe-form">
+                <label for="recipe-name">Recipe Name:</label>
+                <input type="text" id="recipe-name" required>
+
+                <label for="ingredients">Ingredients:</label>
+                <textarea id="ingredients" required></textarea>
+
+                <label for="instructions">Instructions:</label>
+                <textarea id="instructions" required></textarea>
+
+                <button type="button" onclick="saveRecipe()">Save Recipe</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

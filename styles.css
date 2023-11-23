@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#recipe-list {
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #bad4e8;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 390px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+#recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe-item {
+    flex: 1 0 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.recipe-item p {
+    margin: 0;
+}
+
+.recipe-item button {
+    margin-top: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.recipe-item .full-details {
+    display: none;
+}
+
+.recipe-item:hover .full-details {
+    display: block;
+}
+
+
+#recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe-item {
+    flex: 1 0 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-item h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.recipe-item p {
+    margin: 0;
+}
+
+.recipe-item button {
+    margin-top: 10px;
+}
+
+#recipe-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#recipe-form input,
+#recipe-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
